@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kafilain/repositories/simpleweb/
+    - /bin/cp index.html $DEPLOYPATH
